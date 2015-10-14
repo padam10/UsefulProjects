@@ -1,0 +1,37 @@
+﻿@model SessionManagement.Models.ShowBookAndMessageViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowBooks2</title>
+</head>
+<body>
+    <div>
+        <h4>ShowBookAndMessageViewModel</h4>
+        <hr />
+        <dl class="dl-horizontal">
+        </dl>
+    </div>
+<p>
+    <div>
+        @Html.DisplayFor(model => model.Book.BookName);
+        by
+        @Html.DisplayFor(model => model.Book.Author);
+        
+    </div>
+
+    <div>
+        @Html.DisplayFor(model => model.Message.MessageText);
+        by
+        @Html.DisplayFor(model =>model.Message.MessageFrom);
+    </div>
+
+</p>
+</body>
+</html>
