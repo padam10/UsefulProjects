@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// This refers to the class members. If you type this. you will see the list of properties
+//associated with the particular class. 
 // This keyword is used to avoid the ambiguity. This means the object of the 
 // the current class. 
 // for eg if you do this.Id = Id, this.Id belongs to the class and Id is 
