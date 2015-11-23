@@ -22,9 +22,7 @@ namespace ThisKeyword
             private int AcNo;
 
             private string Name;
-
             private double Bal;
-
             private string ConNo;
 
             public Customer() 
