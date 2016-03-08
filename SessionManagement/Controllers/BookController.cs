@@ -15,6 +15,7 @@ namespace SessionManagement.Controllers
         // GET: Book
         public ActionResult Index()
         {
+            //http://localhost:53358/Book/index to view in the browser
             ViewData["Message"] = "Message from ViewData";
 
             return this.View();
